@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/img9.jfif">
+    <script src="https://kit.fontawesome.com/f3e3b3b6e8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+   <!--Create a Header Tag-->
+    <header>
+        <!--Create a navigation Bar-->
+        <div class="nav">
+            <a href="#" class="logo"><i class="fa-solid fa-bowl-food"></i> zoro fast-foods</a>
+            <div class="box">
+                <div class="cart-count">0</div>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <!--Create a Cart-Items-->
+            <div class="carts">
+                <div class="cart-title">Cart Items</div>
+                <div class="cart-content">
+                    <!--
+                    <div class="cart-box">
+                        <img src="images/OIP (3).jfif" class="cart-img">
+                        <div class="detaile-box">
+                            <div class="cart-food-title">Samosa</div>
+                            <div class="price-box">
+                                <div class="cart-price">Rs.50</div>
+                                <div class="cart-amt">Rs.50</div>
+                            </div>
+                            <input type="number" value="1" class="cart-qulty">
+                        </div>
+                        <i class="fa-solid fa-trash" id="cart-remove" ></i>
+                    </div>
+                    <div class="cart-box">
+                        <img src="images/img2.jpg" class="cart-img">
+                        <div class="detaile-box">
+                            <div class="cart-food-title">Samosa</div>
+                            <div class="price-box">
+                                <div class="cart-price">Rs.50</div>
+                                <div class="cart-amt">Rs.50</div>
+                            </div>
+                            <input type="number" value="1" class="cart-qulty">
+                        </div>
+                        <i class="fa-solid fa-trash" id="cart-remove"></i>
+                    </div>  -->
+                </div>
+                <!--Overall Total Of Foods-->
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">Rs.0</div>
+                </div>
+                <button class="btn-buy" onclick="showalert()">Place Order</button>
+                <i class="fa-solid fa-xmark" id="close"></i>
+            </div>
+        </div>
+    </header>
+    <!--Main Container Of Carts-->
+    <div class="container">
+        <h2 class="title">Discover the Best Food</h2>
+        <div class="shop-content">
+            <!--Declear a Food Details-->
+            <div class="food-box">
+                <div class="pic">
+                    <img src="images/OIP (3).jfif" class="food-img">
+                </div>
+                <h2 class="food-title">Samosa</h2>
+                <span class="food-price">Rs.50</span>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="food-box">
+                <div class="pic">
+                    <img src="images/img2.jpg" class="food-img">
+                </div>
+                <h2 class="food-title">Chicken Gravy</h2>
+                <span class="food-price">Rs.200</span>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="food-box">
+                <div class="pic">
+                    <img src="images/img3.jfif" class="food-img">
+                </div>
+                <h2 class="food-title">Chicken Rice</h2>
+                <span class="food-price">Rs.250</span>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="food-box">
+                <div class="pic">
+                    <img src="images/img4.jpg" class="food-img">
+                </div>
+                <h2 class="food-title">Chicken Role</h2>
+                <span class="food-price">Rs.150</span>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="food-box">
+                <div class="pic">
+                    <img src="images/img5.jpg" class="food-img">
+                </div>
+                <h2 class="food-title">Tandoore Mels</h2>
+                <span class="food-price">Rs.650</span>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="food-box">
+                <div class="pic">
+                    <img src="images/img6.jpg" class="food-img">
+                </div>
+                <h2 class="food-title">Chicken Mels</h2>
+                <span class="food-price">Rs.250</span>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="food-box">
+                <div class="pic">
+                    <img src="images/img7.jfif" class="food-img">
+                </div>
+                <h2 class="food-title">Plain Dosa</h2>
+                <span class="food-price">Rs.150</span>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+            <div class="food-box">
+                <div class="pic">
+                    <img src="images/img8.jfif" class="food-img">
+                </div>
+                <h2 class="food-title">Cury Rice</h2>
+                <span class="food-price">Rs.250</span>
+                <i class="fa-solid fa-cart-shopping add-cart"></i>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
